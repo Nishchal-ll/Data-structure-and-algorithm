@@ -41,7 +41,7 @@ class stack{
 	void pop(){
 		Node*temp =top;
 		cout<<temp->data<<" has been popped from stack"<<endl;
-	temp=temp->next;
+	top=top->next;
 		delete(temp);
 	}
 	
